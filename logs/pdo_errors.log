@@ -1,0 +1,4 @@
+[2026-02-28 16:38:00] ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'BIO' for key 'uq_filiere_code' | context={"method":"App\\Dao\\FiliereDao::insert","sql":"INSERT INTO filiere(code, libelle) VALUES(:code, :libelle)"}
+[2026-02-28 16:38:00] ERROR: Transaction failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'BIO' for key 'uq_filiere_code' | context={"method":"App\\Service\\EtudiantService::createFiliereThenStudentTransaction"}
+[2026-02-28 16:54:20] ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'GD' for key 'uq_filiere_code' | context={"method":"App\\Dao\\FiliereDao::insert","sql":"INSERT INTO filiere(code, libelle) VALUES(:code, :libelle)"}
+[2026-02-28 16:54:20] ERROR: Transaction failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'GD' for key 'uq_filiere_code' | context={"method":"App\\Service\\EtudiantService::createFiliereThenStudentTransaction"}
